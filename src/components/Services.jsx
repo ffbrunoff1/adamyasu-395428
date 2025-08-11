@@ -188,14 +188,17 @@ export default function Services() {
               transition={{ delay: 0.6 }}
               className="flex flex-col sm:flex-row gap-4"
             >
-              <motion.button
+              <motion.a
+                href="https://www.amazon.com.br/Peso-Desejo-pr%C3%A1tico-equilibrar-realidade-ebook/dp/B0FB6RWQTR"
+                target="_blank"
+                rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, y: -2 }}
                 whileTap={{ scale: 0.95 }}
                 className="group bg-primary-600 text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 hover:bg-primary-700 hover:shadow-xl flex items-center justify-center gap-2"
               >
                 Adquirir Livro
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
-              </motion.button>
+              </motion.a>
               
               <motion.button
                 whileHover={{ scale: 1.05, y: -2 }}
